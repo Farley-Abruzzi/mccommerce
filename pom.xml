@@ -19,7 +19,6 @@
 
 	<properties>
 		<java.version>11</java.version>
-		<start-class>com.farley.mccommerce</start-class>
 	</properties>
 
 	<dependencies>
@@ -109,9 +108,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<mainClass>com.farley.mccommerce</mainClass>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
